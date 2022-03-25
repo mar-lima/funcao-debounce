@@ -19,7 +19,7 @@ if(target.length) {
 window.addEventListener('scroll', debounce(function(){
     anime()
     console.log('contador')
-}, 200));
+}, 150));
 }
 
 function debounce(fn, delay) {
